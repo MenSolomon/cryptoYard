@@ -1,0 +1,202 @@
+.Navbar {
+  width: 20vw;
+  height: 100vh;
+  background-color: #021528;
+  position: fixed;
+  z-index: 10;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  color: white;
+}
+
+.Navbar li {
+  cursor: pointer;
+}
+
+.Navbar ul li:nth-child(1) {
+  margin-top: 9vh;
+  font-size: 1.7em;
+}
+
+.Navbar ul li:not(:nth-child(1)) {
+  margin-top: 8vh;
+  font-size: 1.4em;
+}
+
+.tableLayout {
+  position: absolute;
+  left: 25vw;
+  top: 7vh;
+  font-size: 1.1em;
+}
+
+.tableLayout table tr,
+th {
+  margin-left: 10vw;
+  padding-left: 10vw;
+  padding-bottom: 10vh;
+}
+
+.tableLayout table tr td {
+  padding-left: 15vw;
+}
+
+.tableLayout table tr:nth-child(2) td {
+  position: relative;
+  top: -7vh;
+}
+
+.tableLayout table tr:nth-child(4) td {
+  position: relative;
+  top: -7vh;
+}
+
+.ranking {
+  position: relative;
+  top: 45vh;
+  left: 25vw;
+  font-weight: 600;
+}
+
+.rankHeading {
+  font-size: 2em;
+  color: black;
+  z-index: 1;
+  position: relative;
+}
+
+.displaySheet {
+  background-color: #d9d9d9;
+  width: 68vw;
+  height: 79vh;
+  position: relative;
+  top: 6vh;
+  border-radius: 4px;
+  padding-top: 4vh;
+}
+
+.displaySheet td {
+  padding-left: 4vw;
+  padding-bottom: 3vh;
+}
+
+tbody tr td:nth-child(2) {
+  min-width: 15vw;
+}
+
+tbody td img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 0.5vh;
+}
+
+.cryptoNews {
+  position: relative;
+  top: 90vh;
+  left: 25vw;
+}
+
+.cryptoHead {
+  font-size: 2em;
+  color: black;
+}
+
+.yahooNews img {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: 10vh;
+}
+
+.yahooNews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coindeskNews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coindeskNews img {
+  width: 150px;
+  height: 40px;
+  position: relative;
+  top: 40vh;
+}
+
+.coinjournalNews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coinjournalNews img {
+  width: 150px;
+  height: 40px;
+  position: relative;
+  top: 50vh;
+}
+
+.cointelegraphNews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cointelegraphNews img {
+  width: 180px;
+  height: 50px;
+  position: relative;
+  top: 105vh;
+}
+
+.coinninjaNews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coinninjaNews img {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  top: 130vh;
+}
+
+.chart {
+  width: 5vw;
+  height: 5vh;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8em;
+}
+
+.newsNav {
+  position: relative;
+  right: 7vw;
+}
+
+.toggle {
+  background-color: #021528;
+  position: absolute;
+  left: 80vw;
+  z-index: 100;
+  width: 3vw;
+  height: 4vh;
+  top: 5vh;
+  border-radius: 30px;
+}
+
+.onoff {
+  position: relative;
+  height: 70%;
+  background-color: white;
+  width: 40%;
+  top: 0.6vh;
+  border-radius: 30px;
+  transition: 0.4s;
+}

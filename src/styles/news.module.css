@@ -1,0 +1,41 @@
+.searchNews {
+  position: relative;
+  left: 75vw;
+  top: 4vh;
+}
+
+.searchNews input {
+  height: 4vh;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 1px solid black;
+  padding-left: 1vw;
+}
+
+.searchNews button {
+  height: 4.6vh;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  right: 2vw;
+  width: 3.5vw;
+  top: 1vh;
+}
+
+.masterNewsArea {
+  width: 73vw;
+  position: relative;
+  left: 23vw;
+  top: 20vh;
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsHeader {
+  position: relative;
+  left: 23vw;
+  top: 10vh;
+}
